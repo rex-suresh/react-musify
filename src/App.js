@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import {
+  BrowserRouter as Router, Route, Routes
+} from 'react-router-dom';
 import './App.css';
+import { StyledPage } from './musicSearch/components/StyledPage';
+import { routes } from './musicSearch/routes/routes';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div style={{ height: '100vh', width: '100vw', maxHeight: '100vh' }}>
+      <Router>
+        <Routes>
+          {
+            routes.map(route => (
+              <Route key={route.to} exact end path={route.to} element={
+                <StyledPage
+                  Content={route.content}
+                  contentHeading={route.heading}
+                />
+              } />))
+          }
+        </Routes>
+      </Router>
+    </div >
   );
-}
+};
 
 export default App;
