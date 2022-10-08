@@ -1,10 +1,11 @@
 import React from 'react';
 import {
-  BrowserRouter as Router, Route, Routes
+  HashRouter as Router, Route, Routes
 } from 'react-router-dom';
 import './App.css';
 import { StyledPage } from './musicSearch/components/StyledPage';
 import { routes } from './musicSearch/routes/routes';
+
 
 const App = () => {
   return (
