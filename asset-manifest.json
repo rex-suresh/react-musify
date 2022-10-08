@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-musify/static/css/main.527ce38b.css",
-    "main.js": "/react-musify/static/js/main.eee0867a.js",
+    "main.js": "/react-musify/static/js/main.461f810f.js",
     "static/js/787.c0072cd7.chunk.js": "/react-musify/static/js/787.c0072cd7.chunk.js",
     "static/media/logo.svg": "/react-musify/static/media/logo.cb30ae7331f168e5623ea1c90803f0c7.svg",
     "index.html": "/react-musify/index.html",
     "static/media/loading.svg": "/react-musify/static/media/loading.c0fc5b7902458afd19a9c925b2afce00.svg",
     "main.527ce38b.css.map": "/react-musify/static/css/main.527ce38b.css.map",
-    "main.eee0867a.js.map": "/react-musify/static/js/main.eee0867a.js.map",
+    "main.461f810f.js.map": "/react-musify/static/js/main.461f810f.js.map",
     "787.c0072cd7.chunk.js.map": "/react-musify/static/js/787.c0072cd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.527ce38b.css",
-    "static/js/main.eee0867a.js"
+    "static/js/main.461f810f.js"
   ]
 }
