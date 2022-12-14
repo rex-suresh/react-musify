@@ -1,5 +1,5 @@
 const links = {
-  topArtists: 'https://api.napster.com/v2.0/artists/top',
+  topArtists: 'https://api.napster.com/v2.0/artists/top?limit=50',
   artistImgList: 'https://api.napster.com/v2.0/artists/__ART_ID__/images',
   artistImg: 'https://api.napster.com/imageserver/v2/artists/__ART_ID__/images/__SIZE__.jpg',
   artistData: 'https://api.napster.com/v2.0/artists/__ART_ID__'
