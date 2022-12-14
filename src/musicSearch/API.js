@@ -1,8 +1,8 @@
 const links = {
-  topArtists: 'https://api.napster.com/v2.2/artists/top',
-  artistImgList: 'https://api.napster.com/v2.2/artists/__ART_ID__/images',
+  topArtists: 'https://api.napster.com/v2.0/artists/top',
+  artistImgList: 'https://api.napster.com/v2.0/artists/__ART_ID__/images',
   artistImg: 'https://api.napster.com/imageserver/v2/artists/__ART_ID__/images/__SIZE__.jpg',
-  artistData: 'https://api.napster.com/v2.2/artists/__ART_ID__'
+  artistData: 'https://api.napster.com/v2.0/artists/__ART_ID__'
 };
 const config = {
   headers: { apikey: 'MjIyZDJjOTEtYzk3Yy00ODAxLTlkNWUtYzM2Y2IwYmE1MTgw' },
